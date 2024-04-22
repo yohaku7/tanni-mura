@@ -1,0 +1,23 @@
+[
+    {
+        "name": "A1",
+        "date": "2024-4-20",
+        "subjects": [
+            "MI"
+        ]
+    },
+    {
+        "name": "B1",
+        "date": "2024-4-27",
+        "subjects": [
+            "ECI"
+        ]
+    },
+    {
+        "name": "C1",
+        "date": "2024-5-25",
+        "subjects": [
+            "JLC"
+        ]
+    }
+]

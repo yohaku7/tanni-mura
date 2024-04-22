@@ -1,0 +1,67 @@
+{
+    "referenceURL": "https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/07/08/1417610_001.pdf",
+    "subjectAreas": [
+        {
+            "label": "数学",
+            "symbol": "M",
+            "subjects": [
+                {
+                    "label": "数学 I",
+                    "symbol": "MI"
+                },
+                {
+                    "label": "数学 A",
+                    "symbol": "MA"
+                }
+            ]
+        },
+        {
+            "label": "国語",
+            "symbol": "J",
+            "subjects": [
+                {
+                    "label": "現代の国語",
+                    "symbol": "JC"
+                },
+                {
+                    "label": "言語文化",
+                    "symbol": "JLC"
+                }
+            ]
+        },
+        {
+            "label": "英語",
+            "symbol": "E",
+            "subjects": [
+                {
+                    "label": "英語コミュニケーション I",
+                    "symbol": "ECI"
+                },
+                {
+                    "label": "論理・表現 I",
+                    "symbol": "ELI"
+                }
+            ]
+        },
+        {
+            "label": "理科",
+            "symbol": "S",
+            "subjects": [
+                {
+                    "label": "化学基礎",
+                    "symbol": "BC"
+                }
+            ]
+        },
+        {
+            "label": "地理歴史",
+            "symbol": "GH",
+            "subjects": [
+                {
+                    "label": "歴史総合",
+                    "symbol": "MCH"
+                }
+            ]
+        }
+    ]
+}
