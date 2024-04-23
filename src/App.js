@@ -1,12 +1,18 @@
-import { useState } from 'react';
 import './App.css';
+import Home from './Home.js';
 import Form from './Form.js';
+import Header from './Header.js';
+import { Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <Form />
-    </div>
+    <>
+      <Header />
+      <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/score-form' element={<Form />} />
+      </Routes>
+    </>
   );
 }
 

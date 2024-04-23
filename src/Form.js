@@ -75,24 +75,6 @@ const Form = () => {
         )}
       />
       <Controller
-        name='subject'
-        control={control}
-        rules={validationRules.subject}
-        render={({ field, fieldState }) => (
-          <FormControl sx={{ m: 1, minWidth: 500 }} error={fieldState.invalid} disabled={selectedExam !== "Custom"}>
-            <InputLabel id="subject-label">科目（複数選択）</InputLabel>
-            <Select
-              labelId='subject-label'
-              label='科目（複数選択）'
-              multiple
-              {...field}>
-              {groupedOptions}
-            </Select>
-            <FormHelperText>{fieldState.error?.message}</FormHelperText>
-          </FormControl>
-        )}
-      />
-      <Controller
         name='exam'
         control={control}
         rules={validationRules.exam}
@@ -114,6 +96,24 @@ const Form = () => {
               }}>
               {examMenuItems}
               <MenuItem value="Custom">カスタム</MenuItem>
+            </Select>
+            <FormHelperText>{fieldState.error?.message}</FormHelperText>
+          </FormControl>
+        )}
+      />
+      <Controller
+        name='subject'
+        control={control}
+        rules={validationRules.subject}
+        render={({ field, fieldState }) => (
+          <FormControl sx={{ m: 1, minWidth: 500 }} error={fieldState.invalid} disabled={selectedExam !== "Custom"}>
+            <InputLabel id="subject-label">科目（複数選択）</InputLabel>
+            <Select
+              labelId='subject-label'
+              label='科目（複数選択）'
+              multiple
+              {...field}>
+              {groupedOptions}
             </Select>
             <FormHelperText>{fieldState.error?.message}</FormHelperText>
           </FormControl>
